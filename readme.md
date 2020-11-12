@@ -77,3 +77,8 @@ Email: enquiry@lynechemicals.com
 - 添加https
 - 知识论坛页面
 - 邮件服务器
+
+ 2020-11-12
+- footer 去掉
+- 邮件服务
+- banner
