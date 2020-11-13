@@ -2345,13 +2345,20 @@ table {
     background-color: rgba(221,221,221,0.5);
     padding: 12px 14px;
 }
-.main_page_nutrition {
-    margin-left: 40px;
-    margin-top: 50%
+.main_page_nutrition{
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
 }
 
+.main_page_nutrition>p{
+    font-family: Avenir-Medium;
+    color: #383630; 
+    font-size: 20px;
+    margin:0;
+}
 .main_page_nutrition>h2{
-    background-color: rgba(221,221,221,0.5);
+    /* background-color: rgba(221,221,221,0.5); */
     padding: 12px 14px;
 }
 .main_page_dream{
@@ -2365,20 +2372,49 @@ table {
     margin-right: 8px;
     display: inline-block;
 }
+
+/* banner 文字适配 */
 @media (max-width: 1024px) {
     .main_page_ice {
         margin-left: 40px;
         margin-top: 60%
     }
     .main_page_nutrition {
-        margin-left: 40px;
-        margin-top: 70%
+        position: absolute;
+        right: 3%;
+        bottom: 30%;
+    }
+}
+@media (max-width: 768px) {
+    .main_page_black {
+        margin-left: 20px;
+        margin-top: 70%;
+    }
+    .main_page_nutrition{
+        position: absolute;
+        right: 10%;
+        bottom: 18%;
     }
 }
 @media (max-width: 414px) {
     .main_page_ice {
         margin-left: 40px;
         margin-top: 15%
+    }
+    .main_page_nutrition{
+        position: absolute;
+        right: 10%;
+        bottom: 16%;
+        padding: 20px;
+        background: rgba(221,221,221,0.5);
+    }
+}
+@media (max-width: 320px) {
+    .main_page_nutrition{
+        right: 0%;
+        bottom: 30%;
+        padding: 20px;
+        background: rgba(221,221,221,0.5);
     }
 }
 
@@ -2387,12 +2423,7 @@ table {
     margin-top: 40%;
 }
 
-@media (max-width: 768px) {
-    .main_page_black {
-        margin-left: 20px;
-        margin-top: 70%;
-    }
-}
+
 
 .logo_lyne {
     margin-bottom: 20px;
