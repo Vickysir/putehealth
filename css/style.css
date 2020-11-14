@@ -2337,27 +2337,45 @@ table {
     color: grey;
 }
 
-.main_page_ice {
-    margin-left: 40px;
-    margin-top: 40%
-}
-.main_page_ice>h2{
-    background-color: rgba(221,221,221,0.5);
-    padding: 12px 14px;
-}
-.main_page_nutrition {
-    margin-left: 40px;
-    margin-top: 50%
+.bg-size{
+    background-size: contain;
 }
 
-.main_page_nutrition>h2{
-    background-color: rgba(221,221,221,0.5);
-    padding: 12px 14px;
+/* 第一张banner */
+.main_page_nutrition{
+    position: absolute;
+    right: 10%;
+    bottom: 26%;
 }
+
+.main_page_nutrition>p,.main_page_ice>p,.main_page_dream>p,.main_page_black>p{
+    font-family: Avenir-Medium;
+    color: #383630; 
+    font-size: 20px;
+    margin:0;
+}
+
+/* 第二张banner */
+.main_page_ice {
+    position: absolute;
+    left: 6%;
+    bottom: 35%;
+}
+
+/* 第三张banner */
 .main_page_dream{
-    margin-left:5%;
-    margin-top: 20%;
+    position: absolute;
+    right: 14%;
+    top: 20%;
 }
+/* 第四张banner */
+.main_page_black {
+    position: absolute;
+    left: -14%;
+    top: 12%;
+}
+
+
 .puthealthbanner2-box{
     writing-mode:vertical-lr;
 }
@@ -2365,34 +2383,181 @@ table {
     margin-right: 8px;
     display: inline-block;
 }
-@media (max-width: 1024px) {
-    .main_page_ice {
-        margin-left: 40px;
-        margin-top: 60%
-    }
+
+/* banner 文字适配 */
+@media (min-width: 769px) and (max-width: 1024px){
     .main_page_nutrition {
-        margin-left: 40px;
-        margin-top: 70%
+        position: absolute;
+        right: 3%;
+        bottom: 30%;
     }
-}
-@media (max-width: 414px) {
     .main_page_ice {
-        margin-left: 40px;
-        margin-top: 15%
+        position: absolute;
+        left: 6%;
+        bottom: 22%;
     }
-}
-
-.main_page_black {
-    margin-left: 20px;
-    margin-top: 40%;
-}
-
-@media (max-width: 768px) {
+    .bg-size{
+        background-size: cover;
+    }
+    .main_page_dream {
+        position: absolute;
+        right: 5%;
+        top: 25%;
+    }
     .main_page_black {
-        margin-left: 20px;
-        margin-top: 70%;
+        position: absolute;
+        left: -10%;
+        top: 12%;
     }
 }
+@media (min-width: 415px) and (max-width: 768px){
+    .main_page_nutrition{
+        position: absolute;
+        right: 10%;
+        bottom: 18%;
+        padding: 20px;
+        background: rgba(221,221,221,0.5);
+
+    }
+    .main_page_ice {
+        position: absolute;
+        left: 6%;
+        bottom: 22%;
+    }
+    .bg-size{
+        background-size: cover;
+    }
+    .main_page_dream {
+        padding: 20px;
+        position: absolute;
+        right: 5%;
+        top: 22%;
+        background: rgba(221,221,221,0.5);
+
+    }
+    .main_page_black {
+        position: absolute;
+        left: -7%;
+        top: 12%;
+    }
+
+}
+@media  (min-width: 376px) and (max-width: 414px){
+    .main_page_nutrition{
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_ice {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(221,221,221,0.5);
+
+    }
+    .bg-size{
+        background-size: cover;
+    }
+    .main_page_dream {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_black {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+}
+@media (min-width: 321px) and (max-width: 375px){
+    .main_page_nutrition{
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_ice {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .bg-size{
+        background-size: cover;
+    }
+    .main_page_dream {
+        width: 87%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_black {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+}
+@media (max-width: 320px) {
+    .main_page_nutrition{
+        right: 0%;
+        bottom: 30%;
+        padding: 20px;
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_ice {
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .bg-size{
+        background-size: cover;
+    }
+    .main_page_dream {
+        width: 87%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_black {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+}
+
+
 
 .logo_lyne {
     margin-bottom: 20px;
