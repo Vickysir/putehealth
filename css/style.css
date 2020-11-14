@@ -2348,7 +2348,7 @@ table {
     bottom: 26%;
 }
 
-.main_page_nutrition>p{
+.main_page_nutrition>p,.main_page_ice>p,.main_page_dream>p,.main_page_black>p{
     font-family: Avenir-Medium;
     color: #383630; 
     font-size: 20px;
@@ -2361,17 +2361,21 @@ table {
     left: 6%;
     bottom: 35%;
 }
-.main_page_ice>p{
-    font-family: Avenir-Medium;
-    color: #383630; 
-    font-size: 20px;
-    margin:0;
+
+/* 第三张banner */
+.main_page_dream{
+    position: absolute;
+    right: 14%;
+    top: 20%;
+}
+/* 第四张banner */
+.main_page_black {
+    position: absolute;
+    left: -14%;
+    top: 12%;
 }
 
-.main_page_dream{
-    margin-left:5%;
-    margin-top: 20%;
-}
+
 .puthealthbanner2-box{
     writing-mode:vertical-lr;
 }
@@ -2395,16 +2399,25 @@ table {
     .bg-size{
         background-size: cover;
     }
+    .main_page_dream {
+        position: absolute;
+        right: 5%;
+        top: 25%;
+    }
+    .main_page_black {
+        position: absolute;
+        left: -10%;
+        top: 12%;
+    }
 }
 @media (min-width: 415px) and (max-width: 768px){
-    .main_page_black {
-        margin-left: 20px;
-        margin-top: 70%;
-    }
     .main_page_nutrition{
         position: absolute;
         right: 10%;
         bottom: 18%;
+        padding: 20px;
+        background: rgba(221,221,221,0.5);
+
     }
     .main_page_ice {
         position: absolute;
@@ -2414,6 +2427,20 @@ table {
     .bg-size{
         background-size: cover;
     }
+    .main_page_dream {
+        padding: 20px;
+        position: absolute;
+        right: 5%;
+        top: 22%;
+        background: rgba(221,221,221,0.5);
+
+    }
+    .main_page_black {
+        position: absolute;
+        left: -7%;
+        top: 12%;
+    }
+
 }
 @media  (min-width: 376px) and (max-width: 414px){
     .main_page_nutrition{
@@ -2421,7 +2448,6 @@ table {
         padding: 20px;
         position: absolute;
         left: 50%;
-        bottom: 100px;
         transform: translateX(-50%);
         background: rgba(221,221,221,0.5);
     }
@@ -2441,6 +2467,22 @@ table {
     .bg-size{
         background-size: cover;
     }
+    .main_page_dream {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_black {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
 }
 @media (min-width: 321px) and (max-width: 375px){
     .main_page_nutrition{
@@ -2448,7 +2490,6 @@ table {
         padding: 20px;
         position: absolute;
         left: 50%;
-        bottom: 100px;
         transform: translateX(-50%);
         background: rgba(221,221,221,0.5);
     }
@@ -2462,6 +2503,22 @@ table {
     }
     .bg-size{
         background-size: cover;
+    }
+    .main_page_dream {
+        width: 87%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_black {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
     }
 }
 @media (max-width: 320px) {
@@ -2482,11 +2539,22 @@ table {
     .bg-size{
         background-size: cover;
     }
-}
-
-.main_page_black {
-    margin-left: 20px;
-    margin-top: 40%;
+    .main_page_dream {
+        width: 87%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_black {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
 }
 
 
