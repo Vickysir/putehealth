@@ -2337,18 +2337,15 @@ table {
     color: grey;
 }
 
-.main_page_ice {
-    margin-left: 40px;
-    margin-top: 40%
+.bg-size{
+    background-size: contain;
 }
-.main_page_ice>h2{
-    background-color: rgba(221,221,221,0.5);
-    padding: 12px 14px;
-}
+
+/* 第一张banner */
 .main_page_nutrition{
     position: absolute;
     right: 10%;
-    bottom: 25%;
+    bottom: 26%;
 }
 
 .main_page_nutrition>p{
@@ -2357,10 +2354,20 @@ table {
     font-size: 20px;
     margin:0;
 }
-.main_page_nutrition>h2{
-    /* background-color: rgba(221,221,221,0.5); */
-    padding: 12px 14px;
+
+/* 第二张banner */
+.main_page_ice {
+    position: absolute;
+    left: 6%;
+    bottom: 35%;
 }
+.main_page_ice>p{
+    font-family: Avenir-Medium;
+    color: #383630; 
+    font-size: 20px;
+    margin:0;
+}
+
 .main_page_dream{
     margin-left:5%;
     margin-top: 20%;
@@ -2374,18 +2381,22 @@ table {
 }
 
 /* banner 文字适配 */
-@media (max-width: 1024px) {
-    .main_page_ice {
-        margin-left: 40px;
-        margin-top: 60%
-    }
+@media (min-width: 769px) and (max-width: 1024px){
     .main_page_nutrition {
         position: absolute;
         right: 3%;
         bottom: 30%;
     }
+    .main_page_ice {
+        position: absolute;
+        left: 6%;
+        bottom: 22%;
+    }
+    .bg-size{
+        background-size: cover;
+    }
 }
-@media (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 768px){
     .main_page_black {
         margin-left: 20px;
         margin-top: 70%;
@@ -2395,18 +2406,62 @@ table {
         right: 10%;
         bottom: 18%;
     }
-}
-@media (max-width: 414px) {
     .main_page_ice {
-        margin-left: 40px;
-        margin-top: 15%
-    }
-    .main_page_nutrition{
         position: absolute;
-        right: 10%;
-        bottom: 16%;
+        left: 6%;
+        bottom: 22%;
+    }
+    .bg-size{
+        background-size: cover;
+    }
+}
+@media  (min-width: 376px) and (max-width: 414px){
+    .main_page_nutrition{
+        width: 85%;
         padding: 20px;
+        position: absolute;
+        left: 50%;
+        bottom: 100px;
+        transform: translateX(-50%);
         background: rgba(221,221,221,0.5);
+    }
+    .main_page_ice {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(221,221,221,0.5);
+
+    }
+    .bg-size{
+        background-size: cover;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px){
+    .main_page_nutrition{
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        bottom: 100px;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .main_page_ice {
+        width: 85%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .bg-size{
+        background-size: cover;
     }
 }
 @media (max-width: 320px) {
@@ -2415,6 +2470,17 @@ table {
         bottom: 30%;
         padding: 20px;
         background: rgba(221,221,221,0.5);
+    }
+    .main_page_ice {
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(221,221,221,0.5);
+    }
+    .bg-size{
+        background-size: cover;
     }
 }
 
