@@ -88,5 +88,5 @@ Email: enquiry@lynechemicals.com
 - 公司介绍，文字与上边界对齐
 - 姜黄图片替换
 - oss存储
-- banner图片
-- 普特健康 换成 “北京普泰康医药科技有限公司”
+- banner图片 
+- 普特健康 换成 “北京普泰康医药科技有限公司” ✅
