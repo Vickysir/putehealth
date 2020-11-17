@@ -85,7 +85,7 @@ Email: enquiry@lynechemicals.com
 
 2020-11-16
 - 知识论坛删掉  ✅
-- 公司介绍，文字与上边界对齐
+- 公司介绍，文字与上边界对齐 ✅
 - 姜黄图片替换
 - oss存储
 - banner图片 
