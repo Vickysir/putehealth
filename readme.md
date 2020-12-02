@@ -90,3 +90,4 @@ Email: enquiry@lynechemicals.com
 - oss存储
 - banner图片 
 - 普特健康 换成 “北京普泰康医药科技有限公司” ✅
+- 番茄红素报告图片替换 ✅
