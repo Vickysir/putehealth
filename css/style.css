@@ -2336,11 +2336,20 @@ table {
     background-size: contain;
 }
 
+.banner_title{
+    font-size: 36px !important;
+    font-weight: bold;
+    line-height: 42px !important;
+}
+.banner_entitle{
+    font-size: 18px !important;
+    line-height: 18px !important;
+}
 /* 第一张banner */
 .main_page_nutrition{
     position: absolute;
-    right: 10%;
-    bottom: 26%;
+    right: 6%;
+    top: 13%;
 }
 
 .main_page_nutrition>p,.main_page_ice>p,.main_page_dream>p,.main_page_black>p{
@@ -2353,21 +2362,21 @@ table {
 /* 第二张banner */
 .main_page_ice {
     position: absolute;
-    left: 5%;
-    bottom: 25%;
+    left: 11%;
+    bottom: 7%;
 }
 
 /* 第三张banner */
 .main_page_dream{
     position: absolute;
-    right: 14%;
-    top: 20%;
+    right: 3%;
+    top: 33%;
 }
 /* 第四张banner */
 .main_page_black {
     position: absolute;
-    left: -14%;
-    top: 12%;
+    left: 13%;
+    top: 27%;
 }
 
 
