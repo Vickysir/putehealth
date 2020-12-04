@@ -2398,7 +2398,7 @@ table {
     .main_page_ice {
         position: absolute;
         left: 6%;
-        bottom: 22%;
+        bottom: 15%;
     }
     .bg-size{
         background-size: cover;
@@ -2406,12 +2406,12 @@ table {
     .main_page_dream {
         position: absolute;
         right: 5%;
-        top: 25%;
+        top: 32%;
     }
     .main_page_black {
         position: absolute;
-        left: -10%;
-        top: 12%;
+        left: 10%;
+        top: 28%;
     }
 }
 @media (min-width: 415px) and (max-width: 768px){
@@ -2421,12 +2421,13 @@ table {
         bottom: 18%;
         padding: 20px;
         background: rgba(221,221,221,0.5);
-
+        height: 160px;
     }
     .main_page_ice {
+        width: 60%;
         position: absolute;
         left: 6%;
-        bottom: 22%;
+        bottom: 16%;
     }
     .bg-size{
         background-size: cover;
@@ -2441,8 +2442,8 @@ table {
     }
     .main_page_black {
         position: absolute;
-        left: -7%;
-        top: 12%;
+        left: 8%;
+        top: 23%;
     }
 
 }
