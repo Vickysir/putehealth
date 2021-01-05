@@ -7,11 +7,10 @@ AOS.init({
 jQuery(document).ready(function ($) {
 
 	"use strict";
-
-	$(window).load(function () {
-		$(".loader").delay(1000).fadeOut("slow");
-		$("#overlayer").delay(1000).fadeOut("slow");
-	});
+	// $(window).load(function () {
+	$(".loader").delay(200).fadeOut("slow");
+	$("#overlayer").delay(200).fadeOut("slow");
+	// });
 
 
 	var siteMenuClone = function () {
