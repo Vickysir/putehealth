@@ -97,3 +97,12 @@
     bottom: 0;
     left: 0;
 }
+
+/* 指定字体 */
+.specified-font{
+    font-family: Avenir;
+}
+.specified-paragraph{
+    margin-bottom:1rem;
+    line-height: 1.7;
+}

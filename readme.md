@@ -91,3 +91,13 @@ Email: enquiry@lynechemicals.com
 - banner图片 ✅
 - 普特健康 换成 “北京普泰康医药科技有限公司” ✅
 - 番茄红素报告图片替换 ✅
+
+2021-01-06
+- 网页访问速度慢，无法访问 ✅
+
+2021-01-10
+- github 的 CI/CD ✅
+- boonray oss上图片换成本地 ✅
+- 网站icon图片 ✅
+- 移交账号
+- 字体改动 ✅
